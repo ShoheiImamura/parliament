@@ -1,0 +1,14 @@
+{
+  "name": "parliament",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@ansanloms/honkit-plugin-uml": "^0.0.7",
+    "honkit": "^3.6.17"
+  },
+  "scripts": {
+    "build": "rm -fr docs && honkit build && mv _book docs",
+    "serve": "honkit serve"
+  }
+}
